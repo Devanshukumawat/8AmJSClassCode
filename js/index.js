@@ -130,22 +130,22 @@ console.log("hi") */
 
 //object
 
-let Student1 = {
-    firstName:"Devanshu",
-    age:67,
-    id:"8787",
-    roll_no:12,
-    address:{
-        pincode:819819,
-        city:"Jaipur"
-    }
-}
+// let Student1 = {
+//     firstName:"Devanshu",
+//     age:67,
+//     id:"8787",
+//     roll_no:12,
+//     address:{
+//         pincode:819819,
+//         city:"Jaipur"
+//     }
+// }
 
 
-let studentCity = Student1.address.city
-let studentPin = Student1.address.pincode
-console.log("Student City :- "+studentCity)
-console.log("Student Pin :- "+studentPin)
+// let studentCity = Student1.address.city
+// let studentPin = Student1.address.pincode
+// console.log("Student City :- "+studentCity)
+// console.log("Student Pin :- "+studentPin)
 
 // const {firstName,age,roll_no} = Student1
 
@@ -169,6 +169,46 @@ console.log("Student Pin :- "+studentPin)
 // ]
 
 // name[0]
+
+
+// const myArray = ["Devanshu","Mannay",87,true]
+
+// console.log(myArray)
+
+// let myVAlue = myArray[1]
+
+// console.log(myVAlue)
+
+// let myArray = new Array("Devanshu","Swastik")
+// console.log(myArray)
+
+
+let student = {
+    firstName:"Dev",
+    lastName:"kumawat",
+    age:45,
+    address:{
+        city:"Kota",
+        pincode:"78787"
+    }
+}
+
+// let studentName = student.firstName
+
+// console.log(student)
+// console.log("Student Name :- "+studentName)
+
+
+// const {firstName,lastName,age} = student
+
+// console.log(firstName)
+
+// let studentAge = student.age
+
+// console.log("Student Age :- "+studentAge)
+
+
+
 
 
 
