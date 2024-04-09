@@ -1,5 +1,5 @@
 //Let create simple calculator
-//Addition 
+//Addition
 //Subtraction
 //Multiplication
 //Division
@@ -14,16 +14,14 @@ operator = (+/-*) --- (-)
 
 */
 
-const prompt = require ("prompt-sync")()
+const prompt = require("prompt-sync")();
 
 // let num1 = parseInt(prompt("Enter 1st Number :- "))  //"4"  2
 // let num2 = parseInt(prompt("Enter 2nd Number :- ") ) //"4"  2
 // let operator = prompt("Enter Operator(+/-*) :- ") //"+"     +
 
 // "44"
-//  4  
-
-
+//  4
 
 // let result = " "
 
@@ -45,7 +43,6 @@ const prompt = require ("prompt-sync")()
 
 // console.log(result)
 
-
 //Check if a number is odd or even
 
 // let num = prompt("Enter Number :- ")
@@ -55,7 +52,6 @@ const prompt = require ("prompt-sync")()
 // }else{
 //     console.log("Number is odd")
 // }
-
 
 //Number Guessing Game 1-10
 //player1 = 2(hide)
@@ -81,7 +77,7 @@ Dev = Devanshu
 Kizie = Manny
 Mannny = Kizie
 
-*/ 
+*/
 
 // let userInput = prompt("Enter Name Here :- ")
 
@@ -97,7 +93,6 @@ Mannny = Kizie
 //     console.log("Invalid Input")
 // }
 
-
 // if(){
 //     if(){
 //         if(){
@@ -108,7 +103,79 @@ Mannny = Kizie
 //     }
 // }
 
+// let job_type = prompt("Job_Type(Government,business,private):- ")
+
+// if(job_type=="government"){
+//     let salary = prompt("Enter your monthly salary :- ")
+//     if(salary>=50000){
+//         console.log("You can apply for loan")
+//     }else{
+//         console.log("You can not apply for loan")
+//     }
+// }
+// else if(job_type=="business"){
+//     let salary = prompt("Enter your yearly turnover :- ")
+//     if(salary>=2000000){
+//         console.log("You can apply for loan")
+//     }else{
+//         console.log("You can not apply for loan")
+//     }
+// }
+// else if(job_type=="private"){
+//     console.log("No loan available for you")
+// }else{
+//     console.log("Invalid Input")
+// }
+
+// let height = prompt("Enter Height (Feet):- ");
+
+// if (height < 1) {
+//   let squeak = prompt("Can Squeak / Can not Squeak (yes/no):- ");
+//   if (squeak == "yes") {
+//     console.log("Might be a Rat");
+//   } else if (squeak == "no") {
+//     console.log("Might be a squirrel");
+//   } else {
+//     console.log("Invalid Input");
+//   }
+// } 
+// else if (height >= 1) {
+//   let neck = prompt("Short neck / Long nack (short/long) :- ");
+//   if (neck == "short") {
+//     let nose = prompt("Short nose / long nose (short/long) :- ");
+//     if (nose == "short") {
+//       let stay = prompt("In water / on land (water/land):- ");
+//       if (stay == "water") {
+//         console.log("Might be a Hippo");
+//       } else if (stay == "land") {
+//         console.log("Might be a rhinoceros");
+//       } else {
+//         console.log("Invalid Input");
+//       }
+//     } else if (nose == "long") {
+//       console.log("Might be a elephant");
+//     } else {
+//       console.log("Invalid Input");
+//     }
+//   } else if (neck == "long") {
+//     console.log("Might be a giraffe");
+//   } else {
+//     console.log("Invalid input");
+//   }
+// }
 
 
+// let firstName = "Dev"
+// let age = 15
+// let  id = "uji908j"
 
+// console.log("UserName :- "+firstName+ " Age :- "+age)
+
+// console.log(`username :- ${firstName} age :- ${age} Id :- ${id} `)
+
+//npm init -y
+//npm i prompt-sync
+
+
+//let prompt = require("prompt-sync")()
 
