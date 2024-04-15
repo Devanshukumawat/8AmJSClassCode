@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="date"></h1>
+    <h2 id="time"></h2>
+
+    <script>
+      function Timer() {
+        let TodayTime = new Date();
+
+        const AllDay = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+        let todayDay = TodayTime.getDay();
+        let DayName = AllDay[todayDay];
+
+        let todayDate = TodayTime.getDate();
+
+        const AllMonth = [
+          "Jan",
+          "Feb",
+          "March",
+          "April",
+          "May",
+          "June",
+          "July",
+          "Aug",
+          "Sep",
+          "Oct",
+          "Nov",
+          "Dec",
+        ];
+        
+        let todayMonth = TodayTime.getMonth();
+        let MonthName = AllMonth[todayMonth];
+
+        let Year = TodayTime.getFullYear();
+
+        let todayHours = TodayTime.getHours();
+        let todayMin = TodayTime.getMinutes();
+        let todaySec = TodayTime.getSeconds();
+
+        let AllDate = `Date:- ${todayDate}/${todayMonth + 1}/${Year}  
+        Day:- ${DayName} 
+        Month:- ${MonthName}`;
+
+        let AllTime = `Time :- ${todayHours}:${todayMin}:${todaySec} `;
+
+        document.getElementById("date").innerText = AllDate;
+        document.getElementById("time").innerHTML = AllTime;
+      }
+
+      //1 sec = 1000 milisec
+      // setInterval(()=>{},1000)
+
+      setInterval(Timer,1000)
+
+
+      setInterval(()=>{
+        console.log("I am a Interval fun")
+      },2000)
+
+    </script>
+  </body>
+</html>
