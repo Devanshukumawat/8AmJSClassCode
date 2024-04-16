@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- <h1 id="c1">
+        Hello
+        <p>Lorem, ipsum.</p>
+    </h1>
+
+    <h2 id="c2">
+        class
+        <p>Lorem, ipsum.</p> 
+    </h2> -->
+
+
+    <img src="./media/Animation-PNG-HD.png" alt="" width="100px" class="myimg">
+    <button onclick="imgChange()">Click to change img</button>
+
+    <a href="https://www.amazon.in/" id="a1">Amazon</a>
+    <button onclick="change()">Change Link</button>
+
+
+    <script>
+        // let a = document.getElementById("c1").innerText
+        // console.log(a)
+        // let b = document.getElementById("c2").innerHTML
+        // console.log(b)
+
+        // let a = document.getElementsByClassName("myimg")[0].attributes[0].value = "./media/Animation-PNG-Photos.png"
+        // console.log(a)
+
+
+        // function imgChange(){
+        //      let a = document.getElementsByClassName("myimg")[0].attributes[0].value = "./media/Animation-PNG-Photos.png"
+        // }
+
+        // let a = document.getElementsByTagName("a")[0].attributes[0].value = "https://www.google.in/"
+        // console.log(a)
+
+        function change(){
+            document.getElementById("a1").innerText = "Google"
+            document.getElementById("a1").attributes[0].value = "https://www.google.in/"
+        }
+
+
+
+    </script>
+
+</body>
+</html>

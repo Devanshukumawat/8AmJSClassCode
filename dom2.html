@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      button {
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 2px 10px 2px 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <button onclick="changeColor()" id="btn">Submit</button>
+    <input type="text" id="input" /><button onclick="changeType()">Hide</button> -->
+
+    <input type="text" name="" id="sh"><button onclick="Pass()">Show</button>
+
+
+    <script>
+    //   function changeType() {
+    //     let a = (document.getElementById("input").attributes[0].value =
+    //       "password");
+    //   }
+
+    //   function changeColor() {
+    //     let a = (document.getElementById("btn").style.backgroundColor = "red");
+    //   }
+
+
+      function Pass(){
+           let myValue = document.getElementById("sh")
+           console.log(myValue)
+
+           if(myValue.type=="text"){
+            myValue.type = "password"
+           }else{
+            myValue.type = "text"
+           }
+           
+      }
+
+    </script>
+  </body>
+</html>
