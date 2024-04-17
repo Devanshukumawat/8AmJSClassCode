@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+p{
+    color: #000000;
+}
+    </style>
+</head>
+<body id="body_color">
+
+
+    
+
+    <!-- <select name="" id="mySelect" onchange="ChangeValue()">
+        <option value="html">Html</option>
+        <option value="css">Css</option>
+        <option value="js">Js</option>
+    </select>
+
+    <h2 id="output"></h2> -->
+
+    <!-- <input type="text" name="" id="">
+    <button>Submit</button> -->
+
+    <input type="color" name="" id="color_picker" onchange="changeColor()">
+
+    <button onclick="Hide()" id="mybtn">Hide</button>
+
+
+    <script>
+
+        // function ChangeValue(){
+        //     let a =  document.getElementById("mySelect").value
+        //     console.log(a)
+
+        //     document.getElementById("output").innerText = "You Select :- " + a
+
+        // }
+
+        function changeColor (){
+            let color = document.getElementById("color_picker").value
+        console.log(color)
+        document.getElementById("body_color").style.backgroundColor = color
+        }
+
+        function Hide(){
+            document.getElementById("mybtn").style.display = "none"
+        }
+
+       
+
+          
+           
+    </script>
+
+
+</body>
+</html>
