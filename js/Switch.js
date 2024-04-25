@@ -22,6 +22,14 @@
 // }
 
 
-setInterval(()=>{
-    console.log("I am a Interval fun")
-  },2000)
+// setInterval(()=>{
+//     console.log("I am a Interval fun")
+//   },2000)
+
+
+const {firstName,divide} = require ("../js/Fun1/test.js")
+
+console.log(firstName)
+
+console.log(divide(10,2))
+

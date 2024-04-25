@@ -69,7 +69,7 @@
 // console.log(multiValue)
 
 
-
+multi(8,9)
 
 
 
