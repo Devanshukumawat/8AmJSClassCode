@@ -34,6 +34,60 @@
 
 // console.log(Math.abs(-189))
 
+// for(let i =1; i<=5; i++){
+//     console.log(i)
+// }
+
+
+// let j = 1
+
+// while(j<=5){
+//     console.log(j)
+//     j++
+// }
+
+
+// let prompt = require ("prompt-sync")()
+
+
+// let num = prompt("Enter Number :- ")
+
+// let i = 1;
+
+// while(i<=10){
+//     console.log(num*i)
+//     i++
+// }
+
+
+// let a = 3;
+// let b = 2; 
+// let ans = 0  
+
+// while(b>0){
+//     ans = ans+a
+//     b--
+// }
+
+// console.log(ans)
+
+
+
+// let myArray = ["manny","dev",12,4,true]
+
+
+// for(let key in myArray){
+//     console.log(myArray[key]) 
+// }
+
+
+// for(let i = 0; i<=10; i++){
+//     if(i==5){
+//         continue
+//     }
+//     console.log(i)
+// }
+
 
 
 
