@@ -1,0 +1,22 @@
+[
+    {
+        "productName" : "Iphone",
+        "productPrice":"$567",
+        "productRating":"4.5"
+    },
+    {
+        "productName" : "Samsung",
+        "productPrice":"$517",
+        "productRating":"4.1"
+    },
+    {
+        "productName" : "Mi",
+        "productPrice":"$512",
+        "productRating":"3.6"
+    },
+    {
+        "productName" : "Vivo",
+        "productPrice":"$89",
+        "productRating":"4.2"
+    }
+]
