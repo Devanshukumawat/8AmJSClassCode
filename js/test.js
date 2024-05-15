@@ -130,5 +130,53 @@
 //     }
 // )()
 
+// let age = 10
 
+// age > 10 ? console.log("Age is grater then 10")
+// : age == 10 ? console.log("Age is equal to 10")
+// : console.log("Invalid age")
+
+
+let obj = {
+    name:"Devanshu",
+    class:"67",
+    age:"78"
+}
+
+
+// let convertedData = JSON.stringify(obj)
+// console.log(convertedData)
+
+const converted = JSON.parse(JSON.stringify(obj))
+
+console.log(converted)
+
+
+// let objexample = {
+//     "name":"Devanshu",
+//     "class":"67",
+//     "age":"78"
+// }
+
+// let convertform = JSON.parse(objexample)
+
+// console.log(convertform)
+
+
+// let alldata = []
    
+// fetch('https://dummyjson.com/products/1')
+// .then(res => res.json())
+// .then(json => {
+//     let data = JSON.stringify(json)
+//      let all = alldata.push(data)
+//      console.log(all)
+// }
+ 
+// )
+
+
+// console.log(alldata)
+
+
+            
